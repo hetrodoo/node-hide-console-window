@@ -1,0 +1,9 @@
+{
+  "name": "node-hide-console-window",
+  "version": "1.0.0",
+  "description": "A node module that can be used to hide and show your app console window.",
+  "main": "index.js",
+  "author": "hetrodo",
+  "license": "MIT",
+  "repository": "https://github.com/hetrodoo/hetrodo-hide-console-window-napi"
+}
