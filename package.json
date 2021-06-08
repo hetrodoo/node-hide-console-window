@@ -1,7 +1,7 @@
 {
   "name": "node-hide-console-window",
   "version": "1.0.0",
-  "description": "A node module that can be used to hide and show your app console window.",
+  "description": "A node module to toggle your app's console window visibility.",
   "main": "index.js",
   "author": "hetrodo",
   "license": "MIT",
