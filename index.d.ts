@@ -1,5 +1,5 @@
 declare module "node-hide-console-window" {
-    function HideConsole(): void
+    function hideConsole(): void
 
-    function ShowConsole(): void
+    function showConsole(): void
 }
