@@ -1,4 +1,4 @@
-# node-hide-console-window
+# [node-hide-console-window](https://www.npmjs.com/package/node-hide-console-window)
 
 A node module to toggle your app's console window visibility. (Can be used with compilers like [pkg](https://www.npmjs.com/package/pkg))
 
