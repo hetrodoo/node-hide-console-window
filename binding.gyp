@@ -1,8 +1,8 @@
 {
     "targets": [
         {
-            "target_name": "hideConsoleWindow",
-            "sources": [ "hideConsoleWindow.cc" ]
+            "target_name": "node-hide-console-window",
+            "sources": [ "node-hide-console-window.cc" ]
         }
     ]
 }
