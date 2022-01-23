@@ -12,5 +12,8 @@
     "Window",
     "Console",
     "Console Window"
+  ],
+  "os": [
+    "win32"
   ]
 }
