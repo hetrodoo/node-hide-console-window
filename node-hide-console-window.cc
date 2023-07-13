@@ -3,7 +3,8 @@
 
 void HideConsole(const v8::FunctionCallbackInfo<v8::Value>& args)
 {
-    ShowWindow(GetConsoleWindow(), SW_HIDE);
+    SetForegroundWindow(GetConsoleWindow());
+    ShowWindow(GetForegroundWindow(), SW_HIDE);
 }
 
 void ShowConsole(const v8::FunctionCallbackInfo<v8::Value>& args)
