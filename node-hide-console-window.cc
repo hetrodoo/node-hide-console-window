@@ -15,8 +15,6 @@ HWND GetTargetWindow()
 void HideConsole(const v8::FunctionCallbackInfo<v8::Value>& args)
 {
     ShowWindow(GetTargetWindow(), SW_HIDE);
-    DWORD processId;
-    GetWindowThreadProcessId(GetTargetWindow(), &processId);
 }
 
 void ShowConsole(const v8::FunctionCallbackInfo<v8::Value>& args)
