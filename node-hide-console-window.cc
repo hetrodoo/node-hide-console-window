@@ -5,10 +5,12 @@ HWND GetTargetWindow()
 {
     HWND consoleWindow = GetConsoleWindow();
     HWND parentWindow = GetParent(consoleWindow);
+
     if (parentWindow == NULL)
     {
         return consoleWindow;
     }
+
     return parentWindow;
 }
 
